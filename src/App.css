@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+
+
+body {
+  font-family: Inter;
+  background-color: rgb(40, 45, 53);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(33, 34, 42);
+  padding: 30px 25px;
+  height: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-image {
+  height: 40px;
+  margin-right: 7px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-logo-text {
+  margin: 0;
+  margin-right: auto;
+  color: rgb(97, 218, 251);
+  font-size: 22px;
+  font-weight: 700;
 }
+
+.nav-title {
+  margin: 0;
+  color: rgb(222, 235, 248);
+  font-weight: 600;
+}
+
+.main-body {
+  padding-left: 30px;
+  color: #FFFFFF;
+  background-image: url("../src/Images/reactjs-icon\ 2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.main-title {
+  margin-top: 35px;
+  letter-spacing: -0.05em;
+}
+
+.main-list > li{
+  margin-bottom: 10px;
+  max-width: 400px;
+}
+
+.main-list > li::marker{
+  color: rgb(97, 218, 251);
+  font-size: 1.4rem;
+}
+
